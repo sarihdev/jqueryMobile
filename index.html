@@ -13,9 +13,17 @@
 
 </head>
 <body>
-	<div data-role="page" id="page1" data-theme="a">
+	<div data-role="page" id="page1" data-theme="b">
 		<div data-role="header">
 			<h1>My first page</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1" data-icon="grid">Home</a></li>
+					<li><a href="#page2" data-icon="camera">Activite</a></li>
+					<li><a href="#page3" data-icon="action">Contact</a></li>
+				
+				</ul>
+			</div>
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
@@ -23,7 +31,7 @@
 			<p>Welcome to my first page</p>
 			<p>Türkçe Karakter:Üü-Ğğ-Şş-İi-Iı-Öö-Çç</p>
 			<p>Notepad++ Kodlama-UTF-8 ile Kodla</p>
-			<a href="#page2" data-transition="flow">Page 2</a>
+			
 		</div><!-- /content -->
 
 		<div data-role="footer">
@@ -34,12 +42,19 @@
 	<div data-role="page" id="page2" data-theme="b">
 		<div data-role="header">
 			<h1>My Second page</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1" data-icon="grid">Home</a></li>
+					<li><a href="#page2" data-icon="camera">Activite</a></li>
+					<li><a href="#page3" data-icon="action">Contact</a></li>
+				
+				</ul>
+			</div>
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
 			<h1>My second page</h1>
 			<p>Welcome to my second page</p>
-			<a href="#page3" data-transition="slidedown">Page 3</a>
 		</div><!-- /content -->
 
 		<div data-role="footer">
@@ -47,15 +62,23 @@
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
-	<div data-role="page" id="page3" data-theme="c">
+	<div data-role="page" id="page3" data-theme="b">
 		<div data-role="header">
 			<h1>Üçüncü Sayfa</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#page1" data-icon="grid">Home</a></li>
+					<li><a href="#page2" data-icon="camera">Activite</a></li>
+					<li><a href="#page3" data-icon="action">Contact</a></li>
+				
+				</ul>
+			</div>
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
 			<h1>Üçüncü Sayfa</h1>
 			<p>Flip efektini göreceksiniz!</p>
-			<a href="#page1" data-transition="flip">Page 1</a>
+			
 		</div><!-- /content -->
 
 		<div data-role="footer">
