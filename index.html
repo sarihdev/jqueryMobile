@@ -15,7 +15,7 @@
 <body>
 	<div data-role="page" id="page1" data-theme="b">
 		<div data-role="header">
-			<h1>My first page</h1>
+			<h1>My first page with jqueryMobile</h1>
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#page1" data-icon="grid">Home</a></li>
@@ -27,7 +27,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<h1>My first page</h1>
+			<h1>My first page with jqueryMobile</h1>
 			<p>Welcome to my first page</p>
 			<p>Türkçe Karakter:Üü-Ğğ-Şş-İi-Iı-Öö-Çç</p>
 			<p>Notepad++ Kodlama-UTF-8 ile Kodla</p>
@@ -48,7 +48,7 @@
 	
 	<div data-role="page" id="page2" data-theme="b">
 		<div data-role="header">
-			<h1>My Second page</h1>
+			<h1>Activite</h1>
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#page1" data-icon="grid">Home</a></li>
@@ -60,7 +60,7 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<h1>My second page</h1>
+			<h1>Activite</h1>
 			<p>Welcome to my second page</p>
 		</div><!-- /content -->
 
@@ -71,7 +71,7 @@
 	
 	<div data-role="page" id="page3" data-theme="b">
 		<div data-role="header">
-			<h1>Üçüncü Sayfa</h1>
+			<h1>Contact me</h1>
 			<div data-role="navbar">
 				<ul>
 					<li><a href="#page1" data-icon="grid">Home</a></li>
@@ -83,8 +83,14 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<h1>Üçüncü Sayfa</h1>
-			<p>Flip efektini göreceksiniz!</p>
+			<h1>Contact me</h1>
+			<form action="">
+				<label for="essay">Tell us what do you think</label>
+				<textarea name="essay" id="essay" placeholder="Tell us how we are"></textarea>
+				<label for="rate">Rate us out of 10</label>
+				<input type="range" name="rate" id="rate" min="0" max="10" />
+				<input type="submit" name="go" id="go" value="Beni Oyla" />
+			</form>
 			
 		</div><!-- /content -->
 
